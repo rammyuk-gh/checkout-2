@@ -10,6 +10,7 @@ public class CheckoutService {
         );
 
         public int calculateTotal(List<String> items) {
+
             if (items == null || items.isEmpty()) {
                 return 0;
             }
