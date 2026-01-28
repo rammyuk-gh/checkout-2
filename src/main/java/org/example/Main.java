@@ -10,6 +10,6 @@ public class Main {
 
     public static void main(String[] args) {
         int total = checkout.calculateTotal(List.of("Apple", "Apple", "Orange", "Apple"));
-        System.out.println(Helper.formatToPoundsAndPennies(total)); // prints £2.05
+        System.out.println(Helper.formatToPoundsAndPennies(total)); // prints £1.45
     }
 }
